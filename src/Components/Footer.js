@@ -25,7 +25,7 @@ function Footer() {
               <div>Phone: 1246167851 </div>
             </div> 
             <div className="nav">
-                <Link to="/">Home</Link>
+                <Link to="/travels_website">Home</Link>
                 <Link to="/tour-packages">Packages</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/contact'>Contact</Link>

@@ -7,7 +7,7 @@ function Header() {
     <header className='header'>
          <h3> MV Holiydays </h3>
         <nav>
-          <Link to='/'>Home</Link>
+          <Link to='/travels_website'>Home</Link>
           <Link to='/tour-packages'>Tour Packages</Link>
           <Link to='/about'>About</Link>
           <Link to='/contact'>Contact Us</Link>
