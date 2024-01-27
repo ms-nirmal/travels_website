@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* {
+  font-family: 'Playpen Sans', cursive;
+  font-family: 'Exo 2', sans-serif;
+  font-family: 'Pacifico', cursive;
+} */
+
+:root{
+  --orange:#DD614A;
+  --coral:#F48668;
+  --melon:#F4A698;
+  --sage:#C5C392;
+  --green:#73A580;
+  --white:#ffffff;
+  --black:#000000;
+}

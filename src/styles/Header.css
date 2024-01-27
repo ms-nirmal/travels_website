@@ -1,0 +1,39 @@
+:root{
+    --orange:#DD614A;
+    --coral:#F48668;
+    --melon:#F4A698;
+    --sage:#C5C392;
+    --green:#73A580;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 20px;
+    background-color:var(--orange);
+    font-size: 25px;
+}
+
+header h3{
+    color: var(--black) ;
+}
+
+nav a{
+    margin-left: 2em;
+    padding-top: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+    font-size: larger;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--green) ;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    color: var(--sage);
+}

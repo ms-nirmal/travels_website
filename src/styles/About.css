@@ -1,0 +1,114 @@
+:root{
+    --orange:#DD614A;
+    --coral:#F48668;
+    --melon:#F4A698;
+    --sage:#C5C392;
+    --green:#73A580;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+.about{
+    background-image: url(../Pages/Packages/Kerala/Assets/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about .quote{
+    margin-bottom: 30px;
+}
+
+.about .quote h2{
+    color: var(--black);
+    text-shadow: 5px 10px 5px #37553f;
+    text-align: center;
+    font-size: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Damion', cursive;
+}
+
+.about .quote h4{
+    color: var(--coral);
+    text-shadow: 0px 3px 3px #101010;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--green);
+}
+
+.about h2{
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+}
+
+.about .motto{
+    border: 1px solid black;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.about .motto h2{
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+}
+
+.about #motto{
+    font-size: 40px;
+    color: black;
+    padding: 5px;
+}
+
+.about p{
+    font-size: 25px;
+    color: black;
+    padding:10px 15px 25px 15px;
+}
+
+.about .Mission p{
+    font-size: 25px;
+    color: var(--white);
+    padding: 15px 50px;
+}
+
+.about .Vision p{
+    font-size: 25px;
+    color: var(--white);
+    padding: 15px 50px;
+}
+
+.about h2{
+    color: var(--black);
+    text-shadow: 5px 10px 5px #37553f;
+}
+
+.about .address h3{
+    padding-bottom: 8px;
+    font-size: 20px;
+    color: var(--sage);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.about .address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+    font-size: 20px;
+}   
+
+.about .corpOfc,.headOfc{
+    padding: 10px;
+    color: var(--white);
+}
+
+.about pre{
+    padding: 20px;
+}

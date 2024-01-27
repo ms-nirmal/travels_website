@@ -1,0 +1,83 @@
+:root{
+    --orange:#DD614A;
+    --coral:#F48668;
+    --melon:#F4A698;
+    --sage:#C5C392;
+    --green:#73A580;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.home .vid-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.home #video1{
+    width: 100%;
+    height: 92%;
+    object-fit: cover;
+}
+
+.home .motto{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-70%);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .motto h2{
+   text-align: center;
+   font-size: 4em;
+   color: var(--white);
+   text-shadow: 5px 10px 3px #DD614A;
+   padding: 10px;
+   font-family: 'Exo 2', sans-serif;
+}
+
+.home .motto p{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 0px 10px 0px #214d2d;
+    padding: 10px;
+    font-family: 'Grape Nuts', cursive;
+ }
+
+ .home .formContainer{
+    background-image: url(../Pages/Packages/Kerala/Assets/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+ }
+
+ .home .btn-travel button{
+    font-size: 25px;
+    font-family: 'Exo 2';
+    padding: 8px;
+    margin-top: 10px;
+    border: 2px solid var(--coral);
+    border-radius: 10px;
+    color: var(--sage);
+    background-color: var(--black);
+    cursor: pointer;
+ }
+
+ .home .btn-travel button:hover{
+    color: var(--green);
+    cursor: pointer;
+ }
+ 
+

@@ -1,0 +1,444 @@
+1. Hills Stations
+ Coorg, Ooty, Munnar, Wayanad, Kodaikanal, Idukki, Chikmagalur, Savandurga, Yercaud, Coonoor, Kudremukh, Yelagiri, Kotagiri 
+
+2.Spirituality.
+Madurai, Rameshwaram , Thiruchendhur, Kanyakumari, SriVellipudhur, Palani..  
+
+
+
+
+
+<div className="form-container">
+    <form action="" id='form'>
+      <h1>Ride Anywhere.. AnyTime</h1>
+      <div className="input-group">
+      <label htmlForfor="Pickup">Pick-Up Location</label>
+        <input type="text" id="Pickup" name="Pickup"/>
+        <div class="error"></div>
+      </div>
+      <div className="input-group">
+      <label htmlForfor="Drop">Drop-Of Location</label>
+        <input type="text" id="Drop" name="Drop"/>
+        <div class="error"></div>
+      </div>
+      <div className="input-group">
+        <label htmlFor="Pickdate">Pick-Up Date</label>
+        <input type="Date" id="Pickdate" name='Pickdate'/>
+        <div class="error"></div>
+      </div>
+      <div className="input-group">
+        <label htmlFor="Pickime">Pick-Up Time</label>
+        <input type="Time" id="Pickime" name='Pickime'/>
+        <div class="error"></div>
+      </div>
+      <center><button type="submit">Register</button></center>
+    </form>
+  </div>
+<div className="quotes">
+  <h2>MV Holidays</h2>
+  <h4>Re Discover YourSelf</h4>
+</div>
+
+.home .quotes h2{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:25%;
+  color: var(--Orange);
+  text-align: center;
+  font-size: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Damion', cursive;
+}
+
+.home .quotes h4{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:22%;
+  color: var(--PersianGreen);
+  text-align: center;
+  font-size: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cursive;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #FFFFFF;
+}
+
+.home .form-container{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  min-width: 350px;
+  max-height: 40vh;
+  top: 8%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.home #form{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:'Trebuchet MS';
+  background-color: rgba(30, 28, 28, 0.556);
+  border: 2px solid var(--Sandybrown);
+  border-radius: 5px;
+  padding: 20px;
+  color: whitesmoke;
+  box-shadow: 20px 20px 20px var(--Charcoal);
+}
+
+.home form h1{
+  text-align: center;
+  font-size: 25px;
+  color:  var(--white);
+  padding: 10px;
+  text-decoration: underline solid var(--Sandybrown) ;
+  text-decoration-thickness: 3px ;
+  text-underline-offset: 8px;
+  font-family: 'Damion', cursive;
+  transform: rotate(-5deg) skew(-3deg);
+}
+
+.home label{
+  padding-right: 15px;
+}
+
+.home .input-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.home .input-group input{
+  font-size: larger;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.home .input-group input:focus{
+  outline: 0;
+}
+
+.home button{
+  font-size: 25px;
+  font-weight: bold;
+  background: var(--Sandybrown);
+  color: var(--Charcoal);
+  padding: 8px;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.home button:hover{
+  background: var(--Charcoal);
+  color: var(--Sandybrown);
+}
+
+
+<div class="formContainer">
+  <h1 class="form-title">Registration</h1>
+  <form action="#">
+    <div class="main-user-info">
+      <div class="user-input-box">
+        <label for="fullName">Full Name</label>
+        <input type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Enter Full Name"/>
+      </div>
+      <div class="user-input-box">
+        <label for="username">Username</label>
+        <input type="text"
+                id="username"
+                name="username"
+                placeholder="Enter Username"/>
+      </div>
+      <div class="user-input-box">
+        <label for="email">Email</label>
+        <input type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email"/>
+      </div>
+      <div class="user-input-box">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="text"
+                id="phoneNumber"
+                name="phoneNumber"
+                placeholder="Enter Phone Number"/>
+      </div>
+      <div class="user-input-box">
+        <label for="password">Password</label>
+        <input type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Password"/>
+      </div>
+      <div class="user-input-box">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                placeholder="Confirm Password"/>
+      </div>
+    </div>
+    <!-- <div class="gender-details-box">
+      <span class="gender-title">Gender</span>
+      <div class="gender-category">
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label>
+      </div>
+    </div> -->
+    <div class="form-submit-btn">
+      <input type="submit" value="Register">
+    </div>
+  </form>
+</div>
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url(bg-image.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 100%;
+  max-width: 650px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 28px;
+  margin: 0 28px;
+  border-radius: 10px;
+  box-shadow: inset -2px 2px 2px white;
+}
+
+.form-title{
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-bottom: solid 1px white;
+}
+
+.main-user-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.user-input-box:nth-child(2n){
+  justify-content: end;
+}
+
+.user-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.user-input-box label{
+  width: 95%;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.user-input-box input{
+  height: 40px;
+  width: 95%;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0 10px;
+}
+
+.gender-title{
+  color:white;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid white;
+}
+
+.gender-category{
+  margin: 15px 0;
+  color: white;
+}
+
+.gender-category label{
+  padding: 0 20px 0 5px;
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+  cursor: pointer;
+}
+
+.form-submit-btn{
+  margin-top: 40px;
+}
+
+.form-submit-btn input{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border:none;
+  border-radius: 3px;
+  color: rgb(209, 209, 209);
+  background: rgba(63, 114, 76, 0.7);
+}
+
+.form-submit-btn input:hover{
+  background: rgba(56, 204, 93, 0.7);
+  color: rgb(255, 255, 255);
+}
+
+@media(max-width: 600px){
+  .container{
+      min-width: 280px;
+  }
+
+  .user-input-box{
+      margin-bottom: 12px;
+      width: 100%;
+  }
+
+  .user-input-box:nth-child(2n){
+      justify-content: space-between;
+  }
+
+  .gender-category{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .main-user-info{
+      max-height: 380px;
+      overflow: auto;
+  }
+
+  .main-user-info::-webkit-scrollbar{
+      width: 0;
+  }
+}
+
+---------------------------------------
+
+<div id="timeline">
+  <div className="tl-item">
+    <div className="tl-bg" style={{ backgroundImage: `url("${img1}")` }}></div>
+    <div className="tl-year">
+      <p className="f2 heading--sanSerif">Water</p>
+    </div>
+    <div className="tl-content">
+      <h1>Lorem ipsum dolor sit</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+    </div>
+  </div>
+
+  <div className="tl-item">
+    <div className="tl-bg" style={{ backgroundImage: 'url(https://placeimg.com/802/802/nature)' }}></div>
+    <div className="tl-year">
+      <p className="f2 heading--sanSerif">2013</p>
+    </div>
+    <div className="tl-content">
+      <h1 className="f3 text--accent ttu">Vestibulum laoreet lorem</h1>
+      <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim ipsum vel mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.</p>
+    </div>
+  </div>
+
+  <div className="tl-item">
+    <div className="tl-bg" style={{ backgroundImage: 'url(https://placeimg.com/803/803/nature)' }}></div>
+    <div className="tl-year">
+      <p className="f2 heading--sanSerif">2014</p>
+    </div>
+    <div className="tl-content">
+      <h1 className="f3 text--accent ttu">Phasellus mauris elit</h1>
+      <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque sit amet varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor dolor. Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur vel, pretium sed.</p>
+    </div>
+  </div>
+
+  <div className="tl-item">
+    <div className="tl-bg" style={{ backgroundImage: 'url(https://placeimg.com/800/800/nature)' }}></div>
+    <div className="tl-year">
+      <p className="f2 heading--sanSerif">2016</p>
+    </div>
+    <div className="tl-content">
+      <h1 className="f3 text--accent ttu">Mauris vitae nunc elem</h1>
+      <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus, bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor elit.</p>
+    </div>
+  </div>
+</div>
+
+--------------------------------------------
+
+<div className="container2">        
+        <div class="timeline">
+          <div class="outer">
+            <div class="card">
+            <div class="info">
+              <h3 class="title">Raja's Seat </h3>
+              <p>Raja's Seat is a culturally significant site and tourist attraction in Madikeri of Coorg District. It is 270km away from Bangalore, the capital of Karnataka. Raja's Seat is located in the middle of a garden called as Gandhi Mantap</p>
+            </div>
+            </div>
+            <div class="card">
+            <div class="info">
+              <h3 class="title">Nagarahole Tiger Reserve</h3>
+              <p>Nagarhole National Park, also known as Rajiv Gandhi National Park, is a wildlife reserve in the South Indian state of Karnataka. Part of the Nilgiri Biosphere Reserve, the park is backed by the Brahamagiri Mountains and filled with sandalwood and teak trees</p>
+            </div>
+            </div>
+            <div class="card">
+            <div class="info">
+              <h3 class="title">Namdroling Monastery Golden Temple</h3>
+              <p>The Namdroling Monastery, popularly referred to as 'The Golden Temple' is one of the largest Tibetan settlements in India. Located in Bylakuppe.</p>
+            </div>
+            </div>
+            <div class="card">
+            <div class="info">
+              <h3 class="title">Brahmagiri Wildlife Sanctuary</h3>
+              <p>The Brahmagiri Wildlife Sanctuary is located in Kodagu District, Karnataka State, India, within the Western Ghats and about 250 km from Bangalore.</p>
+            </div>
+            </div>
+            <div class="card">
+            <div class="info">
+              <h3 class="title">Dubare Elephant Bathing Spot</h3>
+              <p>Dubare is famous as a tourist place for its Elephants and other wildlife activities including elephant ride, river rafting, trekking, etc.</p>
+            </div>
+            </div>            
+            <div class="card">
+            <div class="info">
+              <h3 class="title">Chelavara Water Falls</h3>
+              <p>Chelvara Falls is a natural waterfall formed by small stream, a tributary of Kaveri near Cheyyandane village which is on Virajpet - Talakaveri State Highway around 16 km from Virajpet, in the state of Karnataka, India.</p>
+            </div>
+            </div>             
+          </div>
+        </div>
+        </div>

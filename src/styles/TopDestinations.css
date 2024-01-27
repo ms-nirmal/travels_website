@@ -1,0 +1,130 @@
+:root{
+    --orange:#DD614A;
+    --coral:#F48668;
+    --melon:#F4A698;
+    --sage:#C5C392;
+    --green:#73A580;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+.top-destinations {
+    width: 80%;
+    max-width: 1160px;
+    margin: 0px auto 50px auto;
+}
+
+.top-destinations h3{
+    font-size: 50px;
+    font-weight: bolder;
+    color: var(--black);
+    text-align: center;
+    padding:0px 10px 25px 10px;
+}
+
+.top-destinations span{
+    font-size: 50px;
+    text-align: center;
+    color: var(--green);
+    text-shadow:0px 4px 2px var(--black);
+}
+
+.top-destinations .grid-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "item1 item1 item5 item5"
+                         "item4 item4 item3 item3"
+                         "item4 item4 item3 item3";
+    grid-gap: 10px;
+}
+
+.top-destinations .item {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    background-position: center !important;
+    min-height: 10rem;
+    cursor: pointer;
+}
+
+
+.top-destinations .grid-gallery img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.top-destinations .item1 {
+    grid-area: item1; 
+}
+.top-destinations .item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+}
+.top-destinations .item4 {
+    grid-area: item4;
+}
+.top-destinations .item5 {
+    grid-area: item5;
+}
+
+ 
+@media (max-width: 992px) {
+    .grid-gallery { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-areas: "item1 item1 item5 item5"
+                            "item4 item4 item3 item3"
+                            "item4 item4 item3 item3";
+    }
+}
+
+@media (max-width: 750px){
+    .top-destinations .grid-gallery { 
+        grid-template-columns: 1fr;
+        grid-template-areas: "item1"
+                             "item3" 
+                             "item4"
+                             "item5";
+    }
+}
+
+.top-destinations .text {
+    position: absolute;
+    bottom: 0;
+    /* left: 0;
+    right: 0; */
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+    border-radius: 16px;
+}
+
+.top-destinations .grid-gallery .item:hover .text{
+    height: 0;
+}
+
+.top-destinations .text h1{
+    /* position: absolute; */
+    text-align: center;
+    margin: 20px 0;
+    color: rgba(24, 22, 22, 0.686);
+    text-shadow:0px 4px 5px var(--green);
+    font-size: 50px;
+    font-family: 'Damion', cursive;
+    transform: rotate(-5deg) skew(-5deg);
+}
+
+.top-destinations h2{
+    font-family: 'Courier New';
+    text-align: center;
+    padding: 0px 15px;
+    color: var(--black);
+    font-size: large;
+    letter-spacing: 3px;
+    line-height: 1.25em;
+}
