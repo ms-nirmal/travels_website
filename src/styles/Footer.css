@@ -16,6 +16,8 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 15px ;
+    font-family: 'Dosis', sans-serif;
+    background-image: linear-gradient(to top, #dd614a, #e36a51, #e97459, #ee7d60, #f48668);
 }
 
 .footer .motto{

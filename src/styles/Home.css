@@ -8,12 +8,6 @@
     --black:#000000;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
-
-*{
-    font-family: 'Exo 2', sans-serif;
-}
-
 .home .vid-container{
     position: relative;
     width: 100%;
@@ -39,20 +33,20 @@
 
 .home .motto h2{
    text-align: center;
-   font-size: 4em;
+   font-size: 5vw;
    color: var(--white);
-   text-shadow: 5px 10px 3px #DD614A;
+   text-shadow: 5px 5px 5px var(--melon);
    padding: 10px;
-   font-family: 'Exo 2', sans-serif;
+   font-family: 'Dosis', sans-serif;
 }
 
 .home .motto p{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     color: white;
+    font-family: 'Satisfy', cursive;
     text-shadow: 0px 10px 0px #214d2d;
     padding: 10px;
-    font-family: 'Grape Nuts', cursive;
  }
 
  .home .formContainer{
@@ -65,7 +59,6 @@
 
  .home .btn-travel button{
     font-size: 25px;
-    font-family: 'Exo 2';
     padding: 8px;
     margin-top: 10px;
     border: 2px solid var(--coral);
@@ -73,6 +66,7 @@
     color: var(--sage);
     background-color: var(--black);
     cursor: pointer;
+    font-family:  'Dosis', sans-serif;
  }
 
  .home .btn-travel button:hover{

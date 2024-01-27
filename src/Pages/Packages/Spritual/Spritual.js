@@ -10,6 +10,7 @@ import img6 from './Assets/meenakshi.jpg'
 function Spritual() {
   return (
     <section className='Spritual'>
+      <hr />
       <div className="tripInfo">
         <center><h2>Package Of Spritual</h2></center>          
         <div className="packageInfo">

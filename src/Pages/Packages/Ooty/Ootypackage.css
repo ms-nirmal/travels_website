@@ -8,8 +8,22 @@
   --black:#000000;
 }
 
+.ooty hr{
+  border: 1px solid var(--black);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.ooty{
+  font-family: 'Dosis', sans-serif;
+}
+
+.ooty .tripInfo{
+  background-image: linear-gradient(to bottom, #dd614a, #e4735d, #ea8471, #f09584, #f4a698);
+}
+
 .ooty .packageInfo p{
-  font-family: 'Playpen Sans', cursive;
+  font-size: larger;
 }
 
 .ooty .packageInfo{
@@ -21,30 +35,28 @@
     font-size: 23px;
     font-weight: bolder;
   }
-
-
-  
+ 
   .ooty .tripInfo h2{
     text-align: center;
-    width: fit-content;
+    width: 40%;
     font-size: 50px;
     color: var(--black);
     padding: 10px;
     text-decoration: underline solid var(--orange) ;
     text-decoration-thickness: 3px ;
     text-underline-offset: 8px;
-    font-family: 'Playpen Sans', cursive;
     transform: rotate(-3deg) skew(-3deg);
   }
 
   .ooty .timeline {
       display: flex;
       max-width: 100%;
-      margin: 20px auto;
       padding: 5px;
-      font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif; 
+      font-family: 'Satisfy', cursive;
       font-size: 16px;
       line-height: 1.75;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
     
       &:hover {
         .tl-item {
@@ -120,7 +132,7 @@
       opacity: 0;
       
       h1 {
-        font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-family: 'Dosis', sans-serif;
         text-transform: uppercase;
         color: var(--melon);
         font-size: 1.44rem;
@@ -138,7 +150,7 @@
       border-bottom: 1px solid var(--black);
       
       p {
-        font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-family: 'Satisfy', cursive;
         font-size: 1.728rem;
         line-height: 0;
       }
@@ -155,23 +167,6 @@
       filter: grayscale(20%);
     }
   
-    .ooty .button{
-      max-width: 30%;
-      width: 200px;
-      padding: 8px;
-      background-color: var(--orange);
-      color: var(--sage);
-      font-size: 20px;
-      cursor: pointer;
-      border-radius: 25px;
-      font-family: 'Playpen Sans', cursive;
-    }
-
-    .ooty .button:hover{
-      background-color: var(--sage);
-      color: var(--orange);
-    }
-    
     .ooty .genralInfo{
       display: flex;
       flex-wrap: wrap;

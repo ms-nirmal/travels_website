@@ -10,6 +10,7 @@ import img6 from './Assets/Balaji_Temple.webp'
 function Valparai() {
   return (
     <section className='Valparai'>
+      <hr />
       <div className="tripInfo">
         <center><h2>Valparai</h2></center>
         <div className="packageInfo">

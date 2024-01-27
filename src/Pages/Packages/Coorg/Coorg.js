@@ -9,6 +9,7 @@ import img5 from '../Coorg/Assets/Elephant.jpg'
 function Coorgpackage() {
   return (
   <section className='Coorg'>
+    <hr />
     <div className="tripInfo">
         <center><h2> Coorg</h2></center>
         <div className="packageInfo">

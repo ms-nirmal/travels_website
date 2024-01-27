@@ -11,6 +11,7 @@ import img7 from './assets/Ooty/Ketti_valley,ooty,tamilnadu_-_panoramio.jpg'
 function Ootypackage() {
   return (
     <section className='ooty'>
+      <hr />
       <div className="tripInfo">
         <center><h2>The Ooty</h2></center>
         <div className="packageInfo">

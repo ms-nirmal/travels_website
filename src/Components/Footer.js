@@ -13,10 +13,10 @@ function Footer() {
             </div>
             <div className="social">
                 <h3>Follow Us</h3>
-                <Link to=""><IoLogoWhatsapp className='i'/></Link>
-                <Link to=""><IoLogoTwitter className='i'/></Link>
-                <Link to=""><IoLogoInstagram className='i'/></Link>
-                <Link to=""><IoLogoFacebook className='i'/></Link>
+                <Link to="//travels_website"><IoLogoWhatsapp className='i'/></Link>
+                <Link to="/travels_website"><IoLogoTwitter className='i'/></Link>
+                <Link to="/travels_website"><IoLogoInstagram className='i'/></Link>
+                <Link to="/travels_website"><IoLogoFacebook className='i'/></Link>
             </div> 
         </div>
         <div className="con2">

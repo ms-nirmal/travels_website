@@ -11,6 +11,7 @@ import img7 from './Assets/gandhi-memorial-mandapam-1656142782_e7509cbe9abdae4e0
 function Kanyakumaripackage() {
   return (
     <section className='Kanyakumari'>
+      <hr />
       <div className="tripInfo">
       <center><h2>Kanyakumari</h2></center>
         <div className="packageInfo">

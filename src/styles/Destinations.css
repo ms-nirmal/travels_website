@@ -12,6 +12,7 @@
     width: 70%;
     max-width: 1160px;
     margin: 0px auto 20px auto;
+    font-family: 'Dosis', sans-serif;
 }
 
 .destinations h3{
@@ -105,9 +106,9 @@
     text-align: center;
     margin: 20px 0;
     color: var(--black);
-    text-shadow:5px 5px 5px var(--coral);
+    text-shadow:0px 4px 5px var(--coral);
     font-size: 50px;
-    font-family: 'Damion', cursive;
+    font-family: 'Dosis', sans-serif;
     transform: rotate(-5deg) skew(-5deg);
 }
 
@@ -119,4 +120,5 @@
     font-size: 20px;
     letter-spacing: 3px;
     line-height: 1.25em;
+    font-family: 'Satisfy', cursive;
 }

@@ -161,7 +161,7 @@ function TravelForm() {
             {successMessage && <div className='success'>{successMessage}</div>}
           </div>
           <div className="form-submit-btn">
-            <input type="submit" value="submit"/>
+            <input type="submit" value="Submit"/>
           </div>
         </form>
       </div>

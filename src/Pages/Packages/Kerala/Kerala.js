@@ -9,6 +9,7 @@ import img5 from './Assets/5.jpg'
 function KeralaPackage() {
   return (
     <section className='Kerala'>
+      <hr />
       <div className="tripInfo">
       <center><h2>Kerala</h2></center>
         <div className="packageInfo">

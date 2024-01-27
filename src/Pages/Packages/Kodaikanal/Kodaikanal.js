@@ -12,6 +12,7 @@ import img8 from './assets/Temple.jpg'
 function Kodaikanalpackage() {
   return (
     <section className='Kodaikanal'>
+      <hr />
       <div className="tripInfo">
       <center><h2>Kodaikanal</h2></center>
         <div className="packageInfo">

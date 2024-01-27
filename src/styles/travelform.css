@@ -12,6 +12,7 @@
     left: 0;
     right: 0;
     margin: 10px auto;
+    font-family: 'Dosis', sans-serif;
 }
 
 .Travelform .formContainer{
@@ -32,6 +33,7 @@
     color: var(--melon);
     text-shadow: 2px 2px 2px black;
     border-bottom: solid 1px var(--orange);
+    font-family: 'Dosis', sans-serif;
 }
   
 .Travelform .main-user-info{
@@ -57,6 +59,7 @@
     color: var(--white);
     font-size: 22px;
     margin: 5px 0;
+    font-family: 'Cairo Play', sans-serif;
 }
   
 .Travelform .user-input-box input{
@@ -67,6 +70,7 @@
     outline: none;
     border: 1px solid var(--melon);
     padding: 0 10px;
+    font-family: 'Cairo Play', sans-serif;
 }
   
 .Travelform .form-submit-btn{
@@ -79,6 +83,7 @@
     width: 100%;
     margin-top: 10px;
     font-size: 20px;
+    font-family: 'Satisfy', cursive;
     padding: 10px;
     border:none;
     border-radius: 3px;
