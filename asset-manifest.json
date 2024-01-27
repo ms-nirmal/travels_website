@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travels_website/static/css/main.1c41205d.css",
-    "main.js": "/travels_website/static/js/main.a635616e.js",
+    "main.css": "/travels_website/static/css/main.a06bd9c3.css",
+    "main.js": "/travels_website/static/js/main.8ca0ddae.js",
     "static/media/Vid1.mp4": "/travels_website/static/media/Vid1.2a92317f66388e7acbeb.mp4",
     "static/media/4.jpg": "/travels_website/static/media/4.02abb93850b96caf069e.jpg",
     "static/media/2.jpg": "/travels_website/static/media/2.dfbe7580697d8bef3489.jpg",
@@ -54,11 +54,11 @@
     "static/media/441px-Thiruvalluvar_Statue_at_Kanyakumari_02.jpg": "/travels_website/static/media/441px-Thiruvalluvar_Statue_at_Kanyakumari_02.2187362362ee549fd02f.jpg",
     "static/media/gandhi-memorial-mandapam-1656142782_webp": "/travels_website/static/media/gandhi-memorial-mandapam-1656142782_e7509cbe9abdae4e0db7.56930e35df99012e6124.webp",
     "index.html": "/travels_website/index.html",
-    "main.1c41205d.css.map": "/travels_website/static/css/main.1c41205d.css.map",
-    "main.a635616e.js.map": "/travels_website/static/js/main.a635616e.js.map"
+    "main.a06bd9c3.css.map": "/travels_website/static/css/main.a06bd9c3.css.map",
+    "main.8ca0ddae.js.map": "/travels_website/static/js/main.8ca0ddae.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c41205d.css",
-    "static/js/main.a635616e.js"
+    "static/css/main.a06bd9c3.css",
+    "static/js/main.8ca0ddae.js"
   ]
 }
