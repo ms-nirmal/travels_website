@@ -50,6 +50,8 @@ function TravelForm() {
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i; //i represents no casesensitive
         if (!values.username) {
           errors.username = "Username is required!";
+        }else if(values.username < 3){
+          errors.username = "Username should be minimum 3 characters"
         }
         if (!values.email) {
           errors.email = "Email is required!";
