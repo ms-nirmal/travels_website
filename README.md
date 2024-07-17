@@ -1,3 +1,8 @@
+- **Project Showcase:** 
+Project 1 - Travels Website. (https://ms-nirmal.github.io/travels_website/)
+
+priject 2 - Portfolio
+(https://ms-nirmal.github.io/portfolio/)
 My First Project after completing my MERN Stack Course...
 
 Description:
